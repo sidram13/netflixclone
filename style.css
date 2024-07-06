@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bck{
+    opacity: 0.5;
+    width: 100vw;
+    
+    /* height: 70vh; */
+}
+.main{
+    background-color: black;
+    
+}
+.logo{
+    width: 155px;
+}
+.navbar{
+    width: 80vw;
+    position: absolute ;
+    z-index: 10;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    margin-left: 10vw;
+}
+.con{
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40vh 15vw;
+    position: absolute ;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    gap: 15px;
+}
+p:nth-child(1){
+    font-size: 3rem;
+    font-weight: bolder;
+}
+p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+p:nth-child(3){
+    font-size: 1.25rem;
+    font-weight: 400;
+}
