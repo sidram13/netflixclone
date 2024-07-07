@@ -1,23 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.bck{
-    opacity: 0.5;
+
+.bck {
+    opacity: 0.3;
     width: 100vw;
-    
+
     /* height: 70vh; */
 }
-.main{
+
+.main {
     background-color: black;
-    
+
 }
-.logo{
+
+.logo {
     width: 155px;
 }
-.navbar{
+
+.navbar {
     width: 80vw;
-    position: absolute ;
+    position: absolute;
     z-index: 10;
     background-color: transparent;
     display: flex;
@@ -26,27 +31,77 @@
     margin: 30px 0;
     margin-left: 10vw;
 }
-.con{
+
+.but{
+    display: flex;
+    gap: 21px;
+}
+
+.lang{
+    height: 34px;
+    width: 9vw;
+}
+.con {
     background: transparent;
     color: white;
     display: flex;
     flex-direction: column;
     margin: 40vh 15vw;
-    position: absolute ;
+    position: absolute;
     z-index: 10;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     gap: 15px;
 }
-p:nth-child(1){
+
+p:nth-child(1) {
     font-size: 3rem;
     font-weight: bolder;
 }
-p:nth-child(2){
+
+p:nth-child(2) {
     font-size: 1.5rem;
     font-weight: 400;
 }
-p:nth-child(3){
+
+p:nth-child(3) {
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+.redbut{
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.signin{
+    height: 33px;
+    width: 6vw;
+    font-size: 1em;
+}
+.sign {
+    position: absolute;
+    background: transparent;
+    z-index: 20;
+    margin: 60vh 25vw;
+    padding: 45px;
+/* gap: 100 px; */
+    /* width: 32px; */
+}
+#email{
+    height: 43px;
+    width: 27vw;
+    background: transparent;
+    opacity: .7;
+    ::placeholder {
+        color: aliceblue;
+    }
+}
+#gs{
+    height: 47px;
+    width: 12vw;
+    text-align: center;
+    margin: 
 }
