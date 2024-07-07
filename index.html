@@ -13,16 +13,23 @@
         <nav class="navbar">
             <img class="logo" src="assests/images/logo.png" alt="">
             <div class="but">
-                <button>English</button>
-                <button>Sign In</button>
+                <!-- <button>English</button> -->
+                <select name="eng" class="lang">
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                </select>
+                <button class="signin redbut" name="signin">Sign In</button>
             </div>
         </nav>
         <div class="con">
-        <p>Unlimited movies, TV shows and more</p>
+            <p>Unlimited movies, TV shows and more</p>
             <p>Watch anywhere. Cancel anytime.</p>
             <p>Ready to watch? Enter your email to create or restart your membership.</span>
         </div>
-        <input type="text">
+        <div class="sign">
+            <input type="text" id="email" placeholder="Email address">
+            <button id="gs" class="redbut">Get Started ></button>
+        </div>
 
 
 
